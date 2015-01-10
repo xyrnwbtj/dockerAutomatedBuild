@@ -16,7 +16,7 @@ ADD ./ /opt/pyspider
 # run test
 WORKDIR /opt/pyspider
 RUN IGNORE_MYSQL=1 IGNORE_RABBITMQ=1 IGNORE_MONGODB=1 python setup.py test
-s
+
 VOLUME ["/opt/pyspider"]
 
 ENTRYPOINT ["python", "run.py"]
