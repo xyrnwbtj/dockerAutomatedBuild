@@ -1,6 +1,7 @@
 FROM dockerfile/ubuntu
 MAINTAINER binux <roy@binux.me>
 
+asdasdasd
 # install python
 RUN apt-get update && \
         apt-get install -y python python-dev python-distribute python-pip && \
