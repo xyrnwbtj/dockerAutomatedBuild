@@ -19,7 +19,7 @@ WORKDIR /opt/pyspider
 RUN IGNORE_MYSQL=1 IGNORE_RABBITMQ=1 IGNORE_MONGODB=1 python setup.py test
 
 VOLUME ["/opt/pyspider"]
-
+s
 ENTRYPOINT ["python", "run.py"]
 
 EXPOSE 5000 23333 24444
