@@ -6,7 +6,7 @@ python:
     - "3.4"
 services:
     - mongodb
-    - rabbitmq
+    - rabbitmqsd
 install:
     - pip install --allow-all-external -r requirements.txt
     - pip install coveralls
